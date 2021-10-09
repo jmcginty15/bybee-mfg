@@ -1,0 +1,15 @@
+.ProjectCard {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .ProjectCard {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ProjectCard {
+        grid-template-columns: 100%;
+    }
+}

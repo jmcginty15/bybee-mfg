@@ -1,0 +1,5 @@
+.DetailPage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: calc(100vh - 228px);
+}

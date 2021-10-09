@@ -1,0 +1,64 @@
+.QuoteForm {
+    background-color: var(--text-primary);
+    display: grid;
+    color: var(--primary);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: outset 2px var(--primary);
+    border-radius: 5px;
+}
+
+.QuoteForm-form {
+    text-align: left;
+}
+
+.QuoteForm-input {
+    margin-bottom: 10px;
+}
+
+.QuoteForm-upper {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .QuoteForm {
+        width: 60%;
+    }
+
+    .QuoteForm-upper {
+        grid-template-columns: 50% 50%;
+    }
+
+    .QuoteForm-left {
+        margin-right: 5px;
+    }
+    
+    .QuoteForm-right {
+        margin-left: 5px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .QuoteForm {
+        width: 100%;
+    }
+
+    .QuoteForm-upper {
+        grid-template-columns: 100%;
+    }
+
+    .QuoteForm-left {
+        margin-right: 0;
+    }
+    
+    .QuoteForm-right {
+        margin-left: 0;
+    }    
+}
+
+.QuoteForm-req {
+    color: red;
+    font-weight: bolder;
+}

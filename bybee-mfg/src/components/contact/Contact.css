@@ -1,0 +1,25 @@
+.Contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: calc(100vh - 228px);
+}
+
+.Contact-lower {
+    margin-top: 25px;
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .Contact-lower {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Contact-lower {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+}

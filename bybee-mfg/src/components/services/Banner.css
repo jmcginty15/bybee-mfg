@@ -1,0 +1,36 @@
+.Banner {
+    display: grid;
+    padding: 25px;
+    background-color: var(--text-accent);
+    color: white;
+}
+
+.Banner-text {
+    padding: 10px;
+    text-align: left;
+}
+
+.Banner-button {
+    margin: 10px 20px 10px 20px;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Banner-button:hover {
+    background-color: white !important;
+    border-color: white !important;
+    color: var(--text-accent) !important;
+}
+
+@media (min-width: 768px) {
+    .Banner {
+        grid-template-columns: 40% 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Banner {
+        grid-template-columns: 100%;
+        row-gap: 40px;
+    }
+}

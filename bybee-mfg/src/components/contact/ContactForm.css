@@ -1,0 +1,21 @@
+.ContactForm {
+    background-color: var(--text-primary);
+    display: grid;
+    color: var(--primary);
+    width: 100%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: outset 2px var(--primary);
+    border-radius: 5px;
+}
+
+.ContactForm-form {
+    text-align: left;
+}
+
+.ContactForm-req {
+    color: red;
+    font-weight: bolder;
+}

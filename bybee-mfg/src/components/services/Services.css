@@ -1,0 +1,27 @@
+.Services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: calc(100vh - 228px);
+}
+
+.Services-title {
+    padding-bottom: 20px;
+}
+
+.Services-list {
+    display: grid;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .Services-list {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Services-list {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+}

@@ -1,0 +1,6 @@
+.ProjectImage {
+    border: outset 2px var(--primary);
+    border-radius: 8px;
+    width: 90%;
+    margin: 15px;
+}

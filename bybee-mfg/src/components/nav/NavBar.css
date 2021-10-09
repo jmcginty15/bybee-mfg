@@ -1,0 +1,87 @@
+@import url('../../../node_modules/font-awesome/css/font-awesome.min.css');
+
+.NavBar {
+    background-color: #ffffff;
+    height: fit-content;
+}
+
+.NavBar-item {
+    width: fit-content;
+}
+
+.NavBar-link {
+    position: relative;
+    color: var(--text-accent);
+}
+
+.NavBar-link:hover {
+    cursor: pointer;
+    color: var(--text-primary);
+    transition: 0.15s;
+}
+
+.NavBar-link-social {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    position: relative;
+    color: var(--text-accent);
+}
+
+.NavBar-link-social:hover {
+    cursor: pointer;
+    color: var(--text-primary);
+    transition: 0.15s;
+}
+
+.NavBar-brand:hover {
+    cursor: pointer;
+}
+
+.NavBar-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid var(--text-accent);
+    width: 0%;
+    transition: 0.25s;
+}
+
+.NavBar-link:hover::after {
+    width: 100%;
+}
+
+.NavBar-brand::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid var(--text-accent);
+    transition: 0.25s;
+}
+
+.NavBar-brand:hover::after {
+    width: 100%;
+}
+
+.NavBar-icon {
+    font-size: 20px;
+}
+
+.NavBar-brand {
+    font-weight: bold;
+    position: relative;
+    color: var(--text-accent);
+    margin-left: 20px;
+}
+
+.NavBar-item {
+    text-align: center;
+    margin: auto;
+}
+
+#Nav {
+    background-color: var(--background);
+}

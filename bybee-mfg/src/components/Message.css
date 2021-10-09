@@ -1,0 +1,22 @@
+.Message {
+    background-color: var(--text-primary);
+    color: var(--primary);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: outset 2px var(--primary);
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .Message {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Message {
+        width: 100%;
+    }
+}

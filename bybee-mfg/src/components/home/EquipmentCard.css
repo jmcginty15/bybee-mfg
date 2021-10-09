@@ -1,0 +1,16 @@
+.EquipmentCard {
+    z-index: 10;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: outset 2px var(--primary);
+    border-radius: 8px;
+    font-style: italic;
+    padding: 15px;
+    background-color: white;
+}
+
+.EquipmentCard-list {
+    text-align: left;
+    height: calc(100% - 90px);
+}

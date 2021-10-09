@@ -1,0 +1,22 @@
+.ServiceCard {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: outset 2px var(--primary);
+    border-radius: 8px;
+    font-style: italic;
+    padding: 15px;
+    background-color: white;
+}
+
+.ServiceCard-button {
+    margin-top: 20px;
+    color: var(--background) !important;
+    border-color: var(--background) !important;
+}
+
+.ServiceCard-button:hover {
+    background-color: var(--background) !important;
+    border-color: var(--background) !important;
+    color: white !important;
+}
