@@ -18,9 +18,10 @@ const Footer = () => {
                 <div className="Footer-right">
                     <h5>Bybee Mfg. <small>LLC</small></h5>
                     210 E 1000 S #4<br />
-                    Brigham City, Utah, 84302<br />
-                    Phone: (435) 732-1433<br />
-                    Fax: (435) 723-6735
+                    Brigham City, Utah 84302<br />
+                    Line 1: (801) 589-1281<br />
+                    Line 2: (801) 821-1197<br />
+                    bybeemanufacturing@gmail.com
                 </div>
             </div>
             <div className="Footer-tag">
