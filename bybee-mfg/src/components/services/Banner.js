@@ -8,12 +8,10 @@ const Banner = ({ title, text, photo }) => {
 
     return (
         <div className="Banner">
-            {title === 'Overview' ? (
-                <div>*Picture of the interior of your shop here, or something similar*</div>
-            ) : (
-                <div>*Picture of a related machine here*</div>
-            )}
-            <div>
+            <div className="Banner-photo-container">
+                <img className="Banner-photo" src={photo} />
+            </div>
+            <div className="Banner-info">
                 <h3>{title}</h3>
                 {text.map(paragraph => <p className="Banner-text" key={paragraph.slice(0, 10)}>{paragraph}</p>)}
                 <p>*This text was copied straight from the JD Machine site for a placeholder. Obviously we'll have to come up with your own little blurb.*</p>

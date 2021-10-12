@@ -5,6 +5,10 @@
     color: white;
 }
 
+.Banner-photo-container {
+    position: relative;
+}
+
 .Banner-text {
     padding: 10px;
     text-align: left;
@@ -26,6 +30,17 @@
     .Banner {
         grid-template-columns: 40% 60%;
     }
+
+    .Banner-info {
+        margin-left: 40px;
+    }
+
+    .Banner-photo {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
 }
 
 @media (max-width: 768px) {
@@ -33,4 +48,10 @@
         grid-template-columns: 100%;
         row-gap: 40px;
     }
+}
+
+.Banner-photo {
+    border: outset 2px var(--primary);
+    border-radius: 8px;
+    width: 100%;
 }

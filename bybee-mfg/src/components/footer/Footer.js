@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="Footer-container">
                 <div>
                     <p>
-                        <a className="Footer-link" onClick={() => followLink('/')}>Home</a> | <a className="Footer-link" onClick={() => followLink('/services')}>Services</a> | <a className="Footer-link" onClick={() => followLink('/projects')}>Projects</a> | <a className="Footer-link" onClick={() => followLink('/contact')}>Contact</a> | <a className="Footer-link" onClick={() => followLink('/quote')}>Quote</a>
+                        <a className="Footer-link" onClick={() => followLink('/')}>Home</a> | <a className="Footer-link" onClick={() => followLink('/services')}>Services</a> | <a className="Footer-link" onClick={() => followLink('/contact')}>Contact</a> | <a className="Footer-link" onClick={() => followLink('/quote')}>Quote</a>
                     </p>
                     <p><i className="fa fa-copyright" /> Copyright 2021 Bybee Mfg. <small>LLC</small></p>
                 </div>

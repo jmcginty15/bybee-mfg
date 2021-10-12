@@ -1,6 +1,8 @@
 import { Button } from 'reactstrap';
+import { useState } from 'react';
 import { useHistory } from 'react-router';
-import banner from './images/banner.jpg';
+import bannerHorizontal from './images/banner-horizontal.jpg';
+import bannerVertical from './images/banner-vertical.jpg';
 import EquipmentCard from './EquipmentCard';
 import './Home.css';
 
@@ -13,7 +15,6 @@ const equipment = [
             'Tube bender',
             'Press 1/2" plate by 16"',
             'Klokie propane/oxygen table',
-            'MGM burn table with Hypertherm 1000 plasma',
             '20"x20" stress relief oven',
             "14'x26' paint booth"
         ]
@@ -25,9 +26,8 @@ const equipment = [
             'FCAW',
             'GMAW',
             'SMAW',
-            'Fillet welds to complete joint',
-            'Penetration welds on plate, pipe, and structural members',
-            'Mild steels, high strength low alloy steels, stainless steels, and aluminum steels',
+            'Fillet welds to complete joint, penetration welds on plate, pipe, and structural members',
+            'Mild steels, high strength low alloy steels, stainless steels, and aluminum',
             'Independent quality control CWI level III inspector'
         ]
     },
@@ -45,7 +45,13 @@ const equipment = [
 ]
 
 const Home = () => {
+    const [banner, setBanner] = useState(window.innerWidth >= 768 ? bannerHorizontal : bannerVertical);
     const history = useHistory();
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768 && banner === bannerVertical) setBanner(bannerHorizontal);
+        else if (window.innerWidth < 768 && banner === bannerHorizontal) setBanner(bannerVertical);
+    });
 
     return (
         <div className="Home">
@@ -53,7 +59,7 @@ const Home = () => {
                 <h1 className="Home-title">Welcome to <span className="Home-title-comp">Bybee Mfg. <small>LLC</small></span></h1>
                 <div className="Home-info">
                     <ul className="Home-info-list">
-                        <li>23 years' manufacturing experience</li>
+                        <li>35 years' manufacturing experience</li>
                         <li>Low overhead, affordable pricing</li>
                         <li>10,000 sq ft of fabrication space</li>
                     </ul>
