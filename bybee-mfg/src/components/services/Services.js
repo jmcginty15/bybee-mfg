@@ -8,8 +8,10 @@ import './Services.css';
 
 const overview = {
     title: 'Overview',
-    text: ['Utilizing advanced technology, JD Machine achieves an amazingly high level of component parts throughput for medium- to high-complexity production runs. We mainly serve the aerospace, defense, medical, energy and commercial industries, and our capabilities include precision CNC machining, sheet metal fabrication, assembly, testing and more. We engineer our processes offline using powerful CAD/CAM and CNC program simulation software with up-to-the-minute tracking of OEE and throughput on every machine. The combination of the latest technologies and our highly trained, skilled and motivated team ensures world-class quality at extremely competitive pricing.'],
-    // text: ['Yeethole'],
+    text: [
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Consequat semper viverra nam libero justo laoreet sit amet. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Bibendum est ultricies integer quis auctor. Natoque penatibus et magnis dis. Id diam vel quam elementum pulvinar etiam non. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Sed felis eget velit aliquet sagittis id consectetur purus. Odio ut enim blandit volutpat. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque eu.',
+        'Dui nunc mattis enim ut. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Habitant morbi tristique senectus et netus et. Enim nec dui nunc mattis enim. Eget arcu dictum varius duis at consectetur lorem donec massa. Ornare suspendisse sed nisi lacus sed. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Sed cras ornare arcu dui vivamus arcu felis. Tellus at urna condimentum mattis pellentesque id nibh tortor. Pellentesque elit eget gravida cum sociis natoque penatibus et. Semper feugiat nibh sed pulvinar proin. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Donec massa sapien faucibus et. Duis ut diam quam nulla.'
+    ],
     photo: overviewPhoto
 };
 

@@ -15,29 +15,19 @@ import './App.css';
 
 const cncMilling = {
   title: 'CNC Milling',
-  text: [
-    'CNC (Computer Numerical Controlled) Milling is a machining process which requires computerized controls and rotating multi-point cutting tools to remove material by advancing the tool into the material. This process allows custom-designed components to be manufactured with high-precision tolerances ranging from +/-0.001″ – 0.005″.',
-    'We have 4-axis and 5-axis milling capabilities that can rapidly create parts to our customers specifications. CNC Mills are controlled with G-code programs with CAD/CAM Software.',
-    'CNC Mills were created for manufacturing precise, repeatable parts. This functionality makes them ideal for prototyping, and low-to-high volume production runs. CNC Mills are able to cut a variety of metals ranging from aluminum to titanium, as well as plastics.'
-  ],
+  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
   photo: cncMillingPhoto
 };
 
 const cncTurning = {
   title: 'CNC Turning',
-  text: [
-    'CNC (Computer Numerical Controlled) Turning begins by holding material in the chuck or collet of a lathe, where it is rotated at high speeds while being cut into the appropriate shape. The metal is rotated at various speeds, and the cutting tool moves in specific paths to cut and turn the material into the desired high precision part.',
-    'The process of CNC Turning allows us to create components that are straight, conical, curved or grooved. Our turning centers also have 4 axis milling capabilities.  Each material has an ideal set of tools that have been developed through programming and a validation process to create the most cost effective and efficient manufacturing process possible.'
-  ],
+  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
   photo: cncTurningPhoto
 };
 
 const fabrication = {
   title: 'Fabrication',
-  text: [
-    'Our capabilities include a variety of sheet metal bending, punching, forming and welding processes. Our TruPunch Press is well suited for thin-gage precision components, which are often then formed on our 7-axis press brakes. We accomplish all deburr and preparation for finish work in-house, and contract with exceptional painting and anodizing partners.',
-    'Our U.S. Department of Labor Certified Welding Apprenticeship Program has enabled us to train our own staff of Journey-Level TIG Welders, providing greater in-house value and flexibility.'
-  ],
+  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
   photo: fabricationPhoto
 };
 

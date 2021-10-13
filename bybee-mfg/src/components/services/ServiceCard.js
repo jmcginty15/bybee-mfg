@@ -5,8 +5,6 @@ const ServiceCard = ({ title, link, photo }) => {
     const history = useHistory();
     const followLink = (route) => history.push(route);
 
-    console.log(photo);
-
     return (
         <div className="ServiceCard" style={{ backgroundImage: `url(${photo})` }}>
             <div className="ServiceCard-cover" onClick={() => followLink(`/services${link}`)}>
