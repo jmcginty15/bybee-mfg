@@ -10,7 +10,6 @@ app.use(cors({ origin: '*' }));
 const CLIENT_ROUTES = ['/', '/services', '/services/cnc-milling', '/services/cnc-turning', '/services/fabrication', '/contact', '/quote'];
 app.use((req, res, next) => {
     if (CLIENT_ROUTES.includes(req.path)) {
-        console.log(path.join(__dirname, './bybee-mfg/build', 'index.html'));
         res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
         res.header('Expires', '-1');
         res.header('Pragma', 'no-cache');
