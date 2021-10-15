@@ -6,3 +6,4 @@ placeholder-photos/
 time sheet.txt
 bybee-mfg/package-lock.json
 bybee-mfg/node_modules/
+.env

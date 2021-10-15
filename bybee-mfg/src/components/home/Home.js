@@ -32,11 +32,11 @@ const equipment = [
         ]
     },
     {
-        service: 'Machining',
+        service: 'CNC Machining',
         equipment: [
+            'Haas TM2P CNC mill',
             'Milltronics RH20 vertical CNC mill',
             'Haas tool room lathe',
-            '425 Journeyman mill',
             'Suzuki vertical/horizontal mill with digital two-axis reader',
             'Surbra horizontal boring mill with digital three-axis reader',
             'Super Mill horizontal boring mill with digital four-axis reader'

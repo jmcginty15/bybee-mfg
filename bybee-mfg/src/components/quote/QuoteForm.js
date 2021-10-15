@@ -36,12 +36,12 @@ const QuoteForm = () => {
         evt.preventDefault();
         setSending(true);
 
-        // sendEmail(formData, 'quote_template').then((data) => {
-        //     const result = data.results;
-        //     setSuccess(result.total_accepted_recipients === 1 && result.total_rejected_recipients === 0);
-        //     setSending(false);
-        //     setSent(true);
-        // });
+        sendEmail(formData, 'quote_template').then((data) => {
+            const result = data.results;
+            setSuccess(result.total_accepted_recipients === 1 && result.total_rejected_recipients === 0);
+            setSending(false);
+            setSent(true);
+        });
     }
 
     const reset = () => {

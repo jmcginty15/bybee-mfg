@@ -15,19 +15,19 @@ import './App.css';
 
 const cncMilling = {
   title: 'CNC Milling',
-  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
+  text: ['CNC milling is our specialty. We have manufactured thousands of parts over the last two decades ranging in tolerance from 1/16" to within 0.0001" in both low and high production runs. Our facility is well accustomed to using SolidWorks and MasterCam for our CAD/CAM needs. Most of our work has been done in aluminum, plastics, and various steels.'],
   photo: cncMillingPhoto
 };
 
 const cncTurning = {
   title: 'CNC Turning',
-  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
+  text: ['All of our turning begins with selecting and cutting the appropriate stock for the operation. The stock is held in a chuck as it is rotated and cut to order. Although we are able to manufacture most designs, we do not house a 4th axis lathe at this time. We save our customers money through our efficient programming and step by step inspection to cut down on scrap parts.'],
   photo: cncTurningPhoto
 };
 
 const fabrication = {
   title: 'Fabrication',
-  text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent. Nam aliquam sem et tortor consequat id porta. Ullamcorper dignissim cras tincidunt lobortis feugiat. Nunc sed augue lacus viverra. Quam adipiscing vitae proin sagittis. In tellus integer feugiat scelerisque varius. Netus et malesuada fames ac turpis egestas maecenas pharetra. Neque aliquam vestibulum morbi blandit cursus risus at. Sapien faucibus et molestie ac feugiat sed lectus. Sed viverra ipsum nunc aliquet bibendum enim. Arcu odio ut sem nulla pharetra diam. Nec ultrices dui sapien eget mi proin sed.'],
+  text: ["Our fabrication shop specializes in welding and general fabrication. If we're not personally able to do the process in-house, we are contracted with exceptional manufacturing partners in powder coating, galvanizing, electroplating, heat treating and other common industrial processes."],
   photo: fabricationPhoto
 };
 

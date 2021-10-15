@@ -22,8 +22,9 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.static(path.join(__dirname, './bybee-mfg/build')));
 
-const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL;
-const RECIPIENT_NAME = process.env.RECIPIENT_NAME;
+const mode = process.env.MODE;
+const RECIPIENT_EMAIL = mode === 'dev' ? process.env.RECIPIENT_EMAIL_TEST : process.env.RECIPIENT_EMAIL_PROD;
+const RECIPIENT_NAME = mode === 'dev' ? process.env.RECIPIENT_NAME_TEST : process.env.RECIPIENT_NAME_PROD;
 const API_KEY = process.env.API_KEY;
 const API_URL = process.env.API_URL;
 
