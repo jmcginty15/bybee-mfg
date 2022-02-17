@@ -40,16 +40,16 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/machining">
             <Services />
           </Route>
-          <Route exact path="/services/cnc-milling">
+          <Route exact path="/machining/cnc-milling">
             <DetailPage title={cncMilling.title} text={cncMilling.text} photo={cncMilling.photo} />
           </Route>
-          <Route exact path="/services/cnc-turning">
+          <Route exact path="/machining/cnc-turning">
             <DetailPage title={cncTurning.title} text={cncTurning.text} photo={cncTurning.photo} />
           </Route>
-          <Route exact path="/services/fabrication">
+          <Route exact path="/machining/fabrication">
             <DetailPage title={fabrication.title} text={fabrication.text} photo={fabrication.photo} />
           </Route>
           {/* <Route exact path="/projects">

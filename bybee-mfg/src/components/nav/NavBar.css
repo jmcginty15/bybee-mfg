@@ -5,6 +5,19 @@
     height: fit-content;
 }
 
+#brand-logo {
+    color: var(--text-accent);
+}
+
+#brand-logo:hover {
+    color:white;
+    transition: 0.15s;
+}
+
+#brand-logo-container {
+    margin-left: 1rem;
+}
+
 .NavBar-item {
     width: fit-content;
 }
