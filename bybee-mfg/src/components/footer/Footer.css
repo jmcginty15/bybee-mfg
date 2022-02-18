@@ -59,7 +59,7 @@
 }
 
 .Footer-svg {
-    fill: white;
+    fill: var(--text-primary);
 }
 
 .Footer-svg:hover {

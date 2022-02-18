@@ -1,8 +1,8 @@
 .Banner {
     display: grid;
     padding: 25px;
-    background-color: var(--text-accent);
-    color: white;
+    background-color: var(--primary);
+    color: var(--text-accent);
 }
 
 .Banner-photo-container {
@@ -16,14 +16,14 @@
 
 .Banner-button {
     margin: 10px 20px 10px 20px;
-    color: white !important;
-    border-color: white !important;
+    color: var(--text-accent) !important;
+    border-color: var(--text-accent) !important;
 }
 
 .Banner-button:hover {
-    background-color: white !important;
-    border-color: white !important;
-    color: var(--text-accent) !important;
+    background-color: var(--text-accent) !important;
+    border-color: var(--text-accent) !important;
+    color: var(--primary) !important;
 }
 
 @media (min-width: 768px) {

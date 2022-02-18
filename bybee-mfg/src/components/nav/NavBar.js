@@ -18,7 +18,7 @@ const NavBar = () => {
     const history = useHistory();
     // const { app, forum, facebook, youtube, itunes } = useSelector(state => state.config);
 
-    const linkedIn = 'https://www.linkedin.com/in/jaden-bybee-784590219/';
+    // const linkedIn = 'https://www.linkedin.com/in/jaden-bybee-784590219/';
     const instagram = 'https://www.instagram.com/bybeemfg/';
 
     const [open, setOpen] = useState(false);

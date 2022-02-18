@@ -13,7 +13,7 @@ const ContactCard = () => {
                 </p>
             </div>
             <div className="ContactCard-right">
-                <h5>Bybee Mfg., LLC</h5>
+                <h5>Bybee <small>LLC</small></h5>
                 <p>
                     210 E 1000 S #4<br />
                     Brigham City, Utah 84302<br />

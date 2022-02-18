@@ -33,7 +33,7 @@ const services = [
 const Services = () => {
     return (
         <div className="Services">
-            <h1 className="Services-title">Services We Offer</h1>
+            <h1 className="Services-title">Machine Shop</h1>
             <Banner title={overview.title} text={overview.text} photo={overview.photo} />
             <div className="Services-list">
                 {services.map(service => <ServiceCard title={service.title} link={service.link} photo={service.photo} key={service.link} />)}

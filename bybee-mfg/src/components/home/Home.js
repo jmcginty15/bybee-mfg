@@ -1,12 +1,9 @@
-import { Button } from 'reactstrap';
 import { useState } from 'react';
-import { useHistory } from 'react-router';
 import bannerHorizontal from './images/banner-horizontal-2.jpg';
 import bannerVertical from './images/banner-vertical.jpg';
 import machining from './images/overview.jpg';
 import gunsmithing from './images/gunsmithing.jpg';
 import taxidermy from './images/taxidermy.jpg';
-import EquipmentCard from './EquipmentCard';
 import ServiceCard from '../services/ServiceCard';
 import { ReactComponent as HomeLogo } from '../../assets/logos/Logo-Word-1.svg';
 import './Home.css';
@@ -32,47 +29,46 @@ const services = [
     }
 ];
 
-const equipment = [
-    {
-        service: 'Fabrication',
-        equipment: [
-            'Do-all vertical saw (14" capacity)',
-            'Peddinghaus iron worker',
-            'Tube bender',
-            'Press 1/2" plate by 16"',
-            'Klokie propane/oxygen table',
-            '20"x20" stress relief oven',
-            "14'x26' paint booth"
-        ]
-    },
-    {
-        service: 'Welding',
-        equipment: [
-            'AWS D1.1/D1.2 by certified welders',
-            'FCAW',
-            'GMAW',
-            'SMAW',
-            'Fillet welds to complete joint, penetration welds on plate, pipe, and structural members',
-            'Mild steels, high strength low alloy steels, stainless steels, and aluminum',
-            'Independent quality control CWI level III inspector'
-        ]
-    },
-    {
-        service: 'CNC Machining',
-        equipment: [
-            'Haas TM2P CNC mill',
-            'Milltronics RH20 vertical CNC mill',
-            'Haas tool room lathe',
-            'Suzuki vertical/horizontal mill with digital two-axis reader',
-            'Surbra horizontal boring mill with digital three-axis reader',
-            'Super Mill horizontal boring mill with digital four-axis reader'
-        ]
-    }
-]
+// const equipment = [
+//     {
+//         service: 'Fabrication',
+//         equipment: [
+//             'Do-all vertical saw (14" capacity)',
+//             'Peddinghaus iron worker',
+//             'Tube bender',
+//             'Press 1/2" plate by 16"',
+//             'Klokie propane/oxygen table',
+//             '20"x20" stress relief oven',
+//             "14'x26' paint booth"
+//         ]
+//     },
+//     {
+//         service: 'Welding',
+//         equipment: [
+//             'AWS D1.1/D1.2 by certified welders',
+//             'FCAW',
+//             'GMAW',
+//             'SMAW',
+//             'Fillet welds to complete joint, penetration welds on plate, pipe, and structural members',
+//             'Mild steels, high strength low alloy steels, stainless steels, and aluminum',
+//             'Independent quality control CWI level III inspector'
+//         ]
+//     },
+//     {
+//         service: 'CNC Machining',
+//         equipment: [
+//             'Haas TM2P CNC mill',
+//             'Milltronics RH20 vertical CNC mill',
+//             'Haas tool room lathe',
+//             'Suzuki vertical/horizontal mill with digital two-axis reader',
+//             'Surbra horizontal boring mill with digital three-axis reader',
+//             'Super Mill horizontal boring mill with digital four-axis reader'
+//         ]
+//     }
+// ];
 
 const Home = () => {
     const [banner, setBanner] = useState(window.innerWidth >= 768 ? bannerHorizontal : bannerVertical);
-    const history = useHistory();
 
     window.addEventListener('resize', () => {
         if (window.innerWidth >= 768 && banner === bannerVertical) setBanner(bannerHorizontal);

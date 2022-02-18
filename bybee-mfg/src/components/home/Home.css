@@ -36,7 +36,7 @@
 }
 
 .Home-title-comp {
-    color: var(--text-accent);
+    color: var(--text-primary);
 }
 
 .Home-equipment {
@@ -116,7 +116,7 @@
 }
 
 #home-logo {
-    color: var(--text-primary);
+    color: var(--text-accent);
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;

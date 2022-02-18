@@ -5,8 +5,10 @@ import Contact from './components/contact/Contact';
 import Quote from './components/quote/Quote';
 import Projects from './components/projects/Projects';
 import Services from './components/services/Services';
+import Taxidermy from './components/taxidermy/Taxidermy';
 import DetailPage from './components/services/DetailPage';
 import Footer from './components/footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import cncMillingPhoto from './components/services/images/cnc-milling.jpg';
 import cncTurningPhoto from './components/services/images/cnc-turning.jpg';
 import fabricationPhoto from './components/services/images/fabrication.jpg';
@@ -35,6 +37,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <NavBar />
         <Switch>
           <Route exact path="/">
@@ -51,6 +54,9 @@ function App() {
           </Route>
           <Route exact path="/machining/fabrication">
             <DetailPage title={fabrication.title} text={fabrication.text} photo={fabrication.photo} />
+          </Route>
+          <Route exact path="/taxidermy">
+            <Taxidermy />
           </Route>
           {/* <Route exact path="/projects">
             <Projects />

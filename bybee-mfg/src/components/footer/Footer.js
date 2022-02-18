@@ -13,10 +13,10 @@ const Footer = () => {
                     <p>
                         <a className="Footer-link" onClick={() => followLink('/')}>Home</a> | <a className="Footer-link" onClick={() => followLink('/taxidermy')}>Taxidermy</a> | <a className="Footer-link" onClick={() => followLink('/machining')}>Machining</a> | <a className="Footer-link" onClick={() => followLink('/contact')}>Contact</a> | <a className="Footer-link" onClick={() => followLink('/quote')}>Quote</a>
                     </p>
-                    <p><i className="fa fa-copyright" /> Copyright 2021 Bybee Mfg. <small>LLC</small></p>
+                    <p><i className="fa fa-copyright" /> Copyright 2021 Bybee <small>LLC</small></p>
                 </div>
                 <div className="Footer-right">
-                    <h5>Bybee Mfg. <small>LLC</small></h5>
+                    <h5>Bybee <small>LLC</small></h5>
                     210 E 1000 S #4<br />
                     Brigham City, Utah 84302<br />
                     Line 1: (801) 589-1281<br />
