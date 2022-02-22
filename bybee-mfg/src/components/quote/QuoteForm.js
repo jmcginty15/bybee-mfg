@@ -79,10 +79,11 @@ const QuoteForm = () => {
                             <Label>Product needed by <span className="QuoteForm-req">*</span></Label>
                             <Input required className="QuoteForm-input" type="date" name="productNeededBy" placeholder="(123) 456-7890" value={formData.productNeededBy} onChange={handleChange} />
                         </FormGroup>
+                        <small className="QuoteForm-note">Please note that taxidermy jobs require a minimum 4-6 month turnaround time.</small>
                     </div>
                     <FormGroup>
-                        <Label>Company name <span className="QuoteForm-req">*</span></Label>
-                        <Input required className="QuoteForm-input" type="text" name="company" placeholder="Example Inc." value={formData.company} onChange={handleChange} />
+                        <Label>Company name</Label>
+                        <Input className="QuoteForm-input" type="text" name="company" placeholder="Example Inc." value={formData.company} onChange={handleChange} />
                     </FormGroup>
                     <FormGroup>
                         <Label>Questions / Comments / Details <span className="QuoteForm-req">*</span></Label>

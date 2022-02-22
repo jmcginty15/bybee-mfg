@@ -5,8 +5,16 @@ import deerPhoto from './images/deer.jpg';
 import './Taxidermy.css';
 
 const overview = {
-    title: 'Lorem Ipsum',
-    text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a. Felis bibendum ut tristique et egestas quis ipsum. Purus viverra accumsan in nisl nisi. Eu feugiat pretium nibh ipsum consequat nisl vel. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Consectetur a erat nam at. Non nisi est sit amet facilisis magna etiam tempor. Sed risus ultricies tristique nulla aliquet enim tortor at auctor. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Praesent tristique magna sit amet purus. Vitae suscipit tellus mauris a diam maecenas sed. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam.'],
+    title: '',
+    text: ['We work on full life-sized mounts, shoulder mounts, European mounts, antler restoration, taxidermy rugs, and most other taxidermy services. We pride ourselves on our high-quality work and will take the utmost care to ensure your trophy is displayed in all its full magnificence.'],
+    list: [
+        'Antler restoration, replacement, and fabrication run $100 per tine.',
+        '$25 head skinning fee for cape or Euro where applicable.',
+        'See the below pricing table for all other prices.',
+        'Contact us for a quote using the button below for African, exotic, or unlisted species.',
+        'Estimated 4-6 months turnaround time, not guaranteed.',
+        'Must present portion of hunting tag at time of dropoff.'
+    ],
     photo: deerPhoto
 };
 
@@ -241,7 +249,7 @@ const Taxidermy = () => {
     return (
         <div className="Taxidermy">
             <h1 className="Taxidermy-title">Taxidermy Shop</h1>
-            <Banner title={overview.title} text={overview.text} photo={overview.photo} />
+            <Banner title={overview.title} text={overview.text} list={overview.list} photo={overview.photo} />
             <div className="Taxidermy-pricing">
                 <h3>Pricing</h3>
                 <Table className="Taxidermy-table" striped responsive>
@@ -266,14 +274,6 @@ const Taxidermy = () => {
                         </tr>)}
                     </tbody>
                 </Table>
-                <p className="Taxidermy-info">
-                    Antler restoration, replacement, and fabrication: $100 per tine<br />
-                    <a className="Taxidermy-link" href="/quote">Contact us for a quote</a> for African, exotic, or unlisted species<br />
-                    Estimated 4-6 months turnaround time, not guaranteed<br />
-                    $25 head skinning fee for cape or euro where applicable<br />
-                    Must present portion of hunting tag at time of dropoff<br />
-                    All pricing subject to change
-                </p>
                 <img className="Taxidermy-photo" src={wolverinePhoto} />
             </div>
         </div>

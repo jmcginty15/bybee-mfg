@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import bannerHorizontal from './images/banner-horizontal-2.jpg';
-import bannerVertical from './images/banner-vertical.jpg';
+import bannerVertical from './images/banner-vertical-2.jpg';
 import machining from './images/overview.jpg';
 import gunsmithing from './images/gunsmithing.jpg';
 import taxidermy from './images/taxidermy.jpg';

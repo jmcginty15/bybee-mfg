@@ -3,7 +3,7 @@ import Home from './components/home/Home';
 import NavBar from './components/nav/NavBar';
 import Contact from './components/contact/Contact';
 import Quote from './components/quote/Quote';
-import Projects from './components/projects/Projects';
+// import Projects from './components/projects/Projects';
 import Services from './components/services/Services';
 import Taxidermy from './components/taxidermy/Taxidermy';
 import DetailPage from './components/services/DetailPage';
@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 import cncMillingPhoto from './components/services/images/cnc-milling.jpg';
 import cncTurningPhoto from './components/services/images/cnc-turning.jpg';
 import fabricationPhoto from './components/services/images/fabrication.jpg';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 const cncMilling = {

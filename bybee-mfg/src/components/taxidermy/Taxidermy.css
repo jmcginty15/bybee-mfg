@@ -55,9 +55,20 @@
 }
 
 .Taxidermy-photo {
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
     border: outset 2px var(--primary);
     border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .Taxidermy-photo {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Taxidermy-photo {
+        width: 90vw;
+    }
 }

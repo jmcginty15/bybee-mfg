@@ -1,13 +1,13 @@
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 import './Map.css';
 
-const defaultView = {
-    center: {
-        lat: 41.4883,
-        lng: -112.01243
-    },
-    zoom: 11
-};
+// const defaultView = {
+//     center: {
+//         lat: 41.4883,
+//         lng: -112.01243
+//     },
+//     zoom: 11
+// };
 
 
 const Map = (props) =>
